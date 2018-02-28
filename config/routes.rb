@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  devise_for :resources, ActiveAdmin::Devise.config
   get 'hello_world', to: 'hello_world#index'
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
