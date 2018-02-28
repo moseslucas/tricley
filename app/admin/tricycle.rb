@@ -1,6 +1,6 @@
 ActiveAdmin.register Tricycle do
 
-  permit_params :plate_no, :make_no, :motor_no, :chassis_no, :toda_no, :toda_name, :toda_color, :description
+  permit_params :member_id, :plate_no, :make_no, :motor_no, :chassis_no, :toda_no, :toda_name, :toda_color, :description
 
   index do 
     column :plate_no
@@ -8,6 +8,7 @@ ActiveAdmin.register Tricycle do
     column :toda_no
     column :toda_name
     column :toda_color
+    column "Owner", :member
     actions
   end
 

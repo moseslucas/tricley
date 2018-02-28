@@ -6,6 +6,7 @@ ActiveAdmin.register Member do
     column :address
     column :contact
     column :gender
+    column :tricycle
     actions
   end
 

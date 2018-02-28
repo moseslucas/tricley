@@ -1,4 +1,4 @@
 class Tricycle < ApplicationRecord
-  validates :plate_no, :make_no, :motor_no, :chassis_no, :toda_no, presence: true
-
+  validates :member_id, :plate_no, :make_no, :motor_no, :chassis_no, presence: true
+  belongs_to :member
 end
