@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  plate_no: MyString
+  mtring: MyString
+  make_no: MyString
+  motor_no: MyString
+  chassis_no: MyString
+  toda_no: MyString
+  toda_name: MyString
+  toda_color: MyString
+  description: MyString
+
+two:
+  plate_no: MyString
+  mtring: MyString
+  make_no: MyString
+  motor_no: MyString
+  chassis_no: MyString
+  toda_no: MyString
+  toda_name: MyString
+  toda_color: MyString
+  description: MyString
