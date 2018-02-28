@@ -23,3 +23,4 @@
 
 #AdminUser
 AdminUser.create! email: 'admin@tricley.com', password: 'admin1234'
+Resource.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password') if Rails.env.development?
