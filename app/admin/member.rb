@@ -15,7 +15,7 @@ ActiveAdmin.register Member do
       f.input :address
       f.input :contact
       f.input :gender
-      f.input :birthdate, start_year: 1945
+      f.input :birthdate, end_year: 1950, start_year: 2018
     end
     f.actions
   end
