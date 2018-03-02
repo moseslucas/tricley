@@ -9,5 +9,15 @@ ActiveAdmin.register Member do
     column :tricycle
     actions
   end
+  form do |f|
+    f.inputs do
+      f.input :name
+      f.input :address
+      f.input :contact
+      f.input :gender
+      f.input :birthdate, start_year: 1945
+    end
+    f.actions
+  end
 
 end
